@@ -97,6 +97,6 @@ app.post("/message", async (req, res) => {
 
 
 app.listen(8080, () => {
-  console.log("Server on", process.env.OPENAI_API_KEY);
+  console.log("Server on");
 })
 
